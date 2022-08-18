@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="es-MX">
+<head>
+    <meta charset="UTF-8">
+    <title>.: ENCRIPTADOR :.</title>
+    <!-- Responsividad -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- SEO Natural -->
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <meta name="author" content="Ing. TICS. Sofía Martinelli">
+    <meta name="copyright" content="&copy; SOFMAGON 2022. Todos los derechos reservados.">
+    <meta name="description" content="Encriptador. Primer reto del programa Oracle Next Education + Alura Latam.">
+    <!-- Humans TXT -->
+    <link rel="author" href="humans.txt">
+    <!-- Normalize CSS -->
+    <link rel="preload" href="./css/normalize.css" as="style">
+    <link rel="stylesheet" href="css/normalize.css">
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Spline+Sans+Mono&display=swap" rel="stylesheet">
+    <!-- Estilos locales de CSS -->
+    <link rel="preload" href="./css/main.css" as="style">
+    <link rel="stylesheet" href="./css/main.css">
+</head>
+<body>
+    <header>
+        <img src="./images/logo-alura.png" alt="Logotipo Alura">
+    </header>
+
+    <main class="contenedor encriptador">
+        <section class="area-mensaje">
+            <div>
+                <textarea id="text__area-mensaje" class="text__area-mensaje" placeholder="Ingrese el texto aquí"></textarea>
+                <p><span>⛔️</span> Sólo minúsculas y sin acentos</p>
+            </div>
+            <div class="botones">
+                <button id="btn-encriptar" class="btn btn-encriptar">Encriptar</button>
+                <button id="btn-desencriptar" class="btn btn-desencriptar">Desencriptar</button>
+            </div>
+        </section>
+
+        <section class="barra-lateral">
+            <img id="img__barra-lateral" class="img__barra-lateral" src="./images/ilustracion.svg" alt="ilustración para encriptador">
+            <h2 id="h2__barra-lateral">Ningún mensaje fue encontrado</h2>
+            <p id="p__barra-lateral">Ingresa el texto que desees encriptar o desencriptar</p>
+            <textarea id="txt__barra-lateral" class="area-mensaje__text"></textarea>
+            <button id="btn__barra-lateral" class="btn btn-copiar">Copiar</button>
+        </section>
+    </main>
+
+    <footer class="footer">
+        <p class="footer-descripcion">Este es un proyecto para <a href="https://www.oracle.com/mx/education/oracle-next-education/" target="_blank" rel="noopen noreferrer">Oracle Next Education</a> + <a href="https://www.aluracursos.com/" target="_blank" rel="noopen noreferrer">Alura Latam</a> | Hecho con mucha <span>🍕</span> por <a href="https://beacons.ai/sofmagon" target="_blank" rel="noopen noreferrer">SOFMAGON</a></p>
+    </footer>
+
+    <script src="./js/encriptador.js"></script>
+</body>
+</html>

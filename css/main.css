@@ -1,0 +1,143 @@
+/* === CUSTOM PROPERTIES === */
+:root {
+    --azul-alura: #0B3871;
+    --azul-barra: #C0E1FD;
+    --blanco: #FFF;
+}
+
+/* === GLOBALES === */
+html {
+    /*! Reset para REMS: El 62.5% de 16px = 10px; es decir, 1rem = 10px */
+    font-size: 62.5%;
+    box-sizing: border-box;
+    /* Sticky Footer */
+    height: 100%;
+}
+
+*, *:before, *:after { box-sizing: inherit; }
+
+body {
+    font-size: 1.6rem;
+    font-family: 'Spline Sans Mono', monospace;
+}
+
+h2 {
+    font-size: 2.4rem;
+}
+
+header {
+    margin-top: 3rem;
+}
+
+.contenedor {
+    max-width: 120rem;
+    margin: 0 auto;
+}
+
+.botones {
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 3rem;
+}
+
+.btn {
+    display: block;
+    width: 25rem;
+    background-color: var(--azul-alura);
+    color: var(--blanco);
+    padding: 1rem;
+    transition: background-color 0.3s ease-out;
+    font-size: 2.5rem;
+    text-align: center;
+    border: none;
+    margin: 0 5rem;
+    border-radius: 15px;
+}
+
+.btn:hover {
+    background-color: var(--azul-barra);
+    color: #000;
+    cursor: pointer;
+}
+
+/* === CSS Grid PARA LAYOUT === */
+.encriptador {
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+}
+
+/* === COLUMNA IZQUIERDA === */
+.area-mensaje {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.text__area-mensaje {
+    height: 50rem;
+    max-width: 100%;
+    border: none;
+    resize: none;
+    font-size: 32px;
+    color: var(--azul-alura);
+}
+
+.text__area-mensaje:focus {
+    outline: none;
+}
+
+/* === BARRA LATERAL === */
+.barra-lateral {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    background-color: var(--azul-barra);
+    width: 40rem;
+    border-radius: 50px 0;
+    height: 65rem;
+}
+
+.img__barra-lateral {
+    max-width: 100%;
+    width: 400px;
+    display: block;
+}
+
+#txt__barra-lateral {
+    height: 53rem;
+    max-width: 90%;
+    border: none;
+    resize: none;
+    font-size: 32px;
+    background-color: var(--azul-barra);
+    color: var(--azul-alura);
+    margin: 2rem 0;
+}
+
+#txt__barra-lateral:focus {
+    outline: none;
+}
+
+/* === Pie de página === */
+.footer {
+    background-color: var(--azul-alura);
+    color: var(--blanco);
+    padding: 2rem;
+    margin-top: 5rem;
+}
+
+.footer-descripcion {
+    text-align: center;
+}
+
+.footer-descripcion a {
+    color: var(--blanco);
+    font-weight: bold;
+    text-decoration: none;
+}
+
+.footer span {
+    font-size: 2.5rem;
+}
