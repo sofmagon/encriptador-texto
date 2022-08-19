@@ -1,5 +1,6 @@
 /* TEAM */
 Programmer: Sofía Martinelli
+Github: sofmagon
 LinkedIn: sofmagon
 Twitter: sofmagon
 Location: Torreon, Coahuila. Mexico
