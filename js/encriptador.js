@@ -27,7 +27,7 @@ function encriptar() {
     // sin importar cómo lo escriba el usuario, forzar mensaje en minúsculas
     var msj1 = document.getElementById('text__area-mensaje').value.toLowerCase();
     // reemplazando todas las coincidencias con sus nuevos valores
-    var msj2 = msj1.replaceAll("e", "enter").replaceAll("i", "imes").replaceAll("o", "ober").replaceAll("u", "ufat").replaceAll("a", "ai");
+    var msj2 = msj1.replaceAll("e", "enter").replaceAll("i", "imes").replaceAll("a", "ai").replaceAll("o", "ober").replaceAll("u", "ufat");
     // mostrando el nuevo mensaje en el textarea de la barra lateral
     document.getElementById('txt__barra-lateral').innerHTML = msj2;
     // limpiando el textarea principal
@@ -40,7 +40,7 @@ function desencriptar() {
     // sin importar cómo lo escriba el usuario, forzar mensaje en minúsculas
     var msj1 = document.getElementById('text__area-mensaje').value.toLowerCase();
     // reemplazando todas las coincidencias con sus nuevos valores
-    var msj2 = msj1.replaceAll("enter", "e").replaceAll("imes", "i").replaceAll("ober", "o").replaceAll("ufat", "u").replaceAll("ai", "a");
+    var msj2 = msj1.replaceAll("enter", "e").replaceAll("imes", "i").replaceAll("ai", "a").replaceAll("ober", "o").replaceAll("ufat", "u");
     // mostrando el nuevo mensaje en el textarea de la barra lateral
     document.getElementById('txt__barra-lateral').innerHTML = msj2;
     // limpiando el textarea principal
