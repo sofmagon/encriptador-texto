@@ -4,6 +4,7 @@
 ### ¡Redacta mensajes secretos y JavaScript hará toda la magia!
 
 > Preview
+
 ![](https://i.ibb.co/kQhchbt/2022-08-24-20-48-28-reto-01-sofmagon-netlify-app-f7bf780edf1e.png)
 
 ## 🚀 [Ir a la aplicación](https://reto-01-sofmagon.netlify.app)
