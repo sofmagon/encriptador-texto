@@ -54,6 +54,11 @@ header {
     cursor: pointer;
 }
 
+/* === HEADER === */
+.logo {
+    margin-left: 5rem;
+}
+
 /* === CSS Grid PARA LAYOUT === */
 .encriptador {
     display: grid;
