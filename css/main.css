@@ -69,7 +69,7 @@ header {
     grid-row: 2 / 3;
 }
 
-@media (min-width: 768px) {
+@media (min-width: 1025px) {
     .encriptador {
         grid-template-rows: unset;
         grid-template-columns: 2fr 1fr;
