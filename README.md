@@ -7,7 +7,7 @@
 
 📷 Preview
 
-![](https://i.ibb.co/pxpcqdS/encriptador-devices.jpg)
+![](https://i.ibb.co/Twycz3f/encriptador-devices.jpg)
 
 Este es un reto creado durante mi estadía en el programa [ONE](https://www.oracle.com/mx/education/oracle-next-education/) auspiciado por Oracle Latinoamérica y la plataforma [Alura](https://www.aluracursos.com)
 
