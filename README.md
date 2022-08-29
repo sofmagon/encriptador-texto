@@ -5,9 +5,9 @@
 
 ## 🚀 [Ir a la aplicación](https://reto-01-sofmagon.netlify.app)
 
-🧩 Preview
+**Preview**
 
-![](https://i.ibb.co/Twycz3f/encriptador-devices.jpg)
+![mockup](https://i.ibb.co/Twycz3f/encriptador-devices.jpg)
 
 Este es un reto creado durante mi estadía en el programa [ONE](https://www.oracle.com/mx/education/oracle-next-education/) auspiciado por Oracle Latinoamérica y la plataforma [Alura](https://www.aluracursos.com)
 
