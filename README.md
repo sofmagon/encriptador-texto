@@ -9,10 +9,6 @@
 
 ![](https://i.ibb.co/Twycz3f/encriptador-devices.jpg)
 
-🍕 Demo
-
-![](https://i.ibb.co/YLLBr2Z/demo-gif.gif)
-
 Este es un reto creado durante mi estadía en el programa [ONE](https://www.oracle.com/mx/education/oracle-next-education/) auspiciado por Oracle Latinoamérica y la plataforma [Alura](https://www.aluracursos.com)
 
 ![](https://i.ibb.co/qkSRHGP/one-alura.jpg)
