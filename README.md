@@ -3,7 +3,7 @@
 ### Realizado con HTML, CSS y JavaScript
 ### ¡Redacta mensajes secretos y JavaScript hará toda la magia!
 
-## 🚀 [Ir a la aplicación](https://sofmagon.github.io/encriptador-texto/)
+## 🚀 [Ir a la aplicación](https://reto-01-sofmagon.netlify.app)
 
 **Preview**
 
