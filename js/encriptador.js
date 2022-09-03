@@ -28,6 +28,11 @@ function encriptar() {
     var msj1 = document.getElementById('text__area-mensaje').value.toLowerCase();
     // reemplazando todas las coincidencias con sus nuevos valores
     var msj2 = msj1.replaceAll("e", "enter").replaceAll("i", "imes").replaceAll("a", "ai").replaceAll("o", "ober").replaceAll("u", "ufat");
+
+    // agregar clase a #txt__barra-lateral, para que se expanda y muestre correctamente el mensaje encriptado o desencriptado
+    var nuevaClase = document.getElementById('barra-lateral');
+    nuevaClase.className += ' expand__barra-lateral';
+    
     // mostrando el nuevo mensaje en el textarea de la barra lateral
     document.getElementById('txt__barra-lateral').innerHTML = msj2;
     // limpiando el textarea principal

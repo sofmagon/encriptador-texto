@@ -32,7 +32,7 @@
 
     <main class="contenedor encriptador">
         <section class="area-mensaje">
-            <div>
+            <div class="box__area-mensaje">
                 <textarea id="text__area-mensaje" class="text__area-mensaje" placeholder="Ingrese el texto aquí"></textarea>
                 <p><span>⛔️</span> Sólo minúsculas y sin acentos</p>
             </div>
@@ -41,12 +41,11 @@
                 <button id="btn-desencriptar" class="btn btn-desencriptar">Desencriptar</button>
             </div>
         </section>
-
-        <section class="barra-lateral">
+        <section id="barra-lateral" class="barra-lateral">
             <img id="img__barra-lateral" class="img__barra-lateral" src="./images/ilustracion.svg" alt="ilustración para encriptador">
             <h2 id="h2__barra-lateral">Ningún mensaje fue encontrado</h2>
             <p id="p__barra-lateral">Ingresa el texto que desees encriptar o desencriptar</p>
-            <textarea id="txt__barra-lateral" class="area-mensaje__text"></textarea>
+            <textarea id="txt__barra-lateral" class="txt__barra-lateral"></textarea>
             <button id="btn__barra-lateral" class="btn btn-copiar">Copiar</button>
         </section>
     </main>
